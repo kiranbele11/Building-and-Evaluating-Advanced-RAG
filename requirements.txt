@@ -1,0 +1,31 @@
+llama-index>=0.9.8
+openai>=1.12.0
+trulens-eval>=0.21.0
+nltk>=3.8.1
+pandas>=2.0.0
+numpy>=1.24.0
+ipython>=8.12.0
+jupyter>=1.0.0
+transformers>=4.36.0
+torch>=2.2.0
+sentence-transformers>=2.3.0
+python-dotenv>=1.0.0
+
+Core RAG Components:
+llama-index: For building the RAG pipeline
+openai: For accessing OpenAI's models
+trulens-eval: For evaluation metrics
+Data Processing:
+nltk: For text processing
+pandas: For data manipulation
+numpy: For numerical operations
+Development Environment:
+ipython: For interactive development
+jupyter: For notebook support
+Machine Learning:
+transformers: For using Hugging Face models
+torch: For PyTorch backend
+sentence-transformers: For embedding models (referenced in code line 221 where "BAAI/bge-small-en-v1.5" is used)
+Configuration:
+python-dotenv: For managing environment variables (used for API keys)
+
